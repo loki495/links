@@ -5,11 +5,11 @@ Links / notes to check out
 
 * PHP neural network - https://github.com/infostreams/neural-network/blob/master/class_neuralnetwork.php
 
+
 ## linux / sysadmin
 
 * SELinux - https://www.digitalocean.com/community/tutorials/an-introduction-to-selinux-on-centos-7-part-1-basic-concepts
 
-—-
 
 ## other
 
