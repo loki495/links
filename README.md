@@ -7,6 +7,8 @@ Links / notes to check out
 * design patterns - https://github.com/domnikl/DesignPatternsPHP/blob/master/README.md
 * php-cs-fixer - https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/2.10/README.rst
 * wondercms - https://github.com/robiso/wondercms/wiki%23wondercms-documentation
+* svg guide - https://svgontheweb.com
+* graphics programming questions - https://erkaman.github.io/posts/junior_graphics_programmer_interview.html
 
 
 ## linux / sysadmin
