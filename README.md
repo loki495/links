@@ -18,7 +18,7 @@ Links / notes to check out
 * bash completion script - https://iridakos.com/tutorials/2018/03/01/bash-programmable-completion-tutorial
 * vim ide plugins - http://web-techno.net/vim-php-ide/
 * linux news - https://github.com/0dysseas/news-indicator
-
+* Redis on AWS - https://medium.com/@andrewcbass/install-redis-v3-2-on-aws-ec2-instance-93259d40a3ce
 
 ## other
 
