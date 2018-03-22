@@ -9,6 +9,7 @@ Links / notes to check out
 * wondercms - https://github.com/robiso/wondercms/wiki%23wondercms-documentation
 * svg guide - https://svgontheweb.com
 * graphics programming questions - https://erkaman.github.io/posts/junior_graphics_programmer_interview.html
+* react bootcamp - https://tylermcginnis.com/free-react-bootcamp/
 
 
 ## linux / sysadmin
