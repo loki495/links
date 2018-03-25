@@ -16,7 +16,9 @@ Links / notes to check out
 
 * SELinux - https://www.digitalocean.com/community/tutorials/an-introduction-to-selinux-on-centos-7-part-1-basic-concepts
 * bash completion script - https://iridakos.com/tutorials/2018/03/01/bash-programmable-completion-tutorial
-* vim ide plugins - http://web-techno.net/vim-php-ide/
+* vim
+** ide plugins - http://web-techno.net/vim-php-ide/
+** marks - http://vim.wikia.com/wiki/Using_marks
 * linux news - https://github.com/0dysseas/news-indicator
 * Redis on AWS - https://medium.com/@andrewcbass/install-redis-v3-2-on-aws-ec2-instance-93259d40a3ce
 * linux security basics - https://linuxacademy.com/cp/socialize/index/type/community_post/id/19700
