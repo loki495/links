@@ -10,6 +10,7 @@ Links / notes to check out
 * svg guide - https://svgontheweb.com
 * graphics programming questions - https://erkaman.github.io/posts/junior_graphics_programmer_interview.html
 * react bootcamp - https://tylermcginnis.com/free-react-bootcamp/
+* tutorials - https://hackr.io
 
 
 ## linux / sysadmin
