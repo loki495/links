@@ -20,6 +20,7 @@ Links / notes to check out
 * vim
     * ide plugins - http://web-techno.net/vim-php-ide/
     * marks - http://vim.wikia.com/wiki/Using_marks
+    * http://web-techno.net/code-quality-check-tools-php/
 * linux news - https://github.com/0dysseas/news-indicator
 * Redis on AWS - https://medium.com/@andrewcbass/install-redis-v3-2-on-aws-ec2-instance-93259d40a3ce
 * linux security basics - https://linuxacademy.com/cp/socialize/index/type/community_post/id/19700
