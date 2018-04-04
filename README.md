@@ -25,6 +25,8 @@ Links / notes to check out
 * Redis on AWS - https://medium.com/@andrewcbass/install-redis-v3-2-on-aws-ec2-instance-93259d40a3ce
 * linux security basics - https://linuxacademy.com/cp/socialize/index/type/community_post/id/19700
 * tmux cheatsheet - https://gist.github.com/henrik/1967800
+* http://overthewire.org/wargames/bandit
+* https://linuxjourney.com/
 
 
 ## other
