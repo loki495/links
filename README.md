@@ -11,6 +11,7 @@ Links / notes to check out
 * graphics programming questions - https://erkaman.github.io/posts/junior_graphics_programmer_interview.html
 * react bootcamp - https://tylermcginnis.com/free-react-bootcamp/
 * tutorials - https://hackr.io
+* kodi addon - https://simplekore.com/how-to-create-a-video-add-on-for-kodi/
 
 
 ## linux / sysadmin
