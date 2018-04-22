@@ -12,6 +12,7 @@ Links / notes to check out
 * react bootcamp - https://tylermcginnis.com/free-react-bootcamp/
 * tutorials - https://hackr.io
 * kodi addon - https://simplekore.com/how-to-create-a-video-add-on-for-kodi/
+* static code analysis - https://github.com/exakat/php-static-analysis-tools
 
 
 ## linux / sysadmin
