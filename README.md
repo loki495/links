@@ -23,13 +23,14 @@ Links / notes to check out
     * ide plugins - http://web-techno.net/vim-php-ide/
     * marks - http://vim.wikia.com/wiki/Using_marks
     * http://web-techno.net/code-quality-check-tools-php/
+    * https://github.com/thoughtbot/dotfiles/blob/master/vimrc
 * linux news - https://github.com/0dysseas/news-indicator
 * Redis on AWS - https://medium.com/@andrewcbass/install-redis-v3-2-on-aws-ec2-instance-93259d40a3ce
 * linux security basics - https://linuxacademy.com/cp/socialize/index/type/community_post/id/19700
 * tmux cheatsheet - https://gist.github.com/henrik/1967800
 * http://overthewire.org/wargames/bandit
 * https://linuxjourney.com/
-
+* https://github.com/mscoutermarsh/dotfiles/blob/master/tmux/tmux.conf.symlink
 
 ## other
 
