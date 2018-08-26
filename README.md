@@ -2,7 +2,7 @@
 Links / notes to check out
 
 ## code
-
+* build your own ___ - https://github.com/danistefanovic/build-your-own-x/blob/master/README.md
 * PHP neural network - https://github.com/infostreams/neural-network/blob/master/class_neuralnetwork.php
 * design patterns - https://github.com/domnikl/DesignPatternsPHP/blob/master/README.md
 * php-cs-fixer - https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/2.10/README.rst
