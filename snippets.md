@@ -3,7 +3,8 @@ Opencart 1.5.6.4
 
 * check duplicate accounts, show orders by customer_id
 
-```sql
+```
+sql
 SELECT 
   c.email, 
   COUNT(c.customer_id) as total, 
@@ -27,6 +28,8 @@ HAVING
 ```
 * create user and database
 
-```CREATE USER 'admin'@'localhost' IDENTIFIED BY 'mypass';
+```
+CREATE USER 'admin'@'localhost' IDENTIFIED BY 'mypass';
 CREATE DATABASE IF NOT EXISTS foo;
-GRANT ALL ON foo.* TO 'admin'@'localhost'; ```
+GRANT ALL ON foo.* TO 'admin'@'localhost';
+```
