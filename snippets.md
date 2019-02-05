@@ -25,3 +25,8 @@ GROUP BY
 HAVING 
   total > 1
 ```
+* create user and database
+
+```CREATE USER 'admin'@'localhost' IDENTIFIED BY 'mypass';
+CREATE DATABASE IF NOT EXISTS foo;
+GRANT ALL ON foo.* TO 'admin'@'localhost'; ```
