@@ -27,6 +27,10 @@ HAVING
   total > 1
 ```
 
+
+General MySQL
+=============
+
 * create user and database
 
 ```
