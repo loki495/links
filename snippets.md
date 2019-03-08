@@ -26,10 +26,21 @@ GROUP BY
 HAVING 
   total > 1
 ```
+
 * create user and database
 
 ```
 CREATE USER 'admin'@'localhost' IDENTIFIED BY 'mypass';
 CREATE DATABASE IF NOT EXISTS foo;
 GRANT ALL ON foo.* TO 'admin'@'localhost';
+```
+
+
+CentOS
+======
+
+* Check with packages provide libs
+
+```
+repoquery --repofrompath=centos7,http://mirror.centos.org/centos/7/os/`arch` \ --repoid=centos7 \ # Only consider this specific repository. --qf="%{location}" \ # Output the URL of the RPM file. --whatprovides XXX
 ```
