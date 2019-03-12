@@ -48,3 +48,9 @@ CentOS
 ```
 repoquery --repofrompath=centos7,http://mirror.centos.org/centos/7/os/`arch` \ --repoid=centos7 \ # Only consider this specific repository. --qf="%{location}" \ # Output the URL of the RPM file. --whatprovides XXX
 ```
+
+* Find and show / filter by perm / size /  user
+
+```
+find . -type d -printf "depth="%d" sym perm="%M" perm="%m" size="%s" user="%u" group="%g" name="%p" type="%Y\\n | grep -v perm=755
+```
