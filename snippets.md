@@ -48,6 +48,15 @@ LARAVEL
 select payload, substring_index(job,'"',1) as job, substring_index(business_id,';',1) as business_id
 FROM (SELECT payload, SUBSTR(payload,INSTR(payload,'App\\\\Jobs\\\\')+11) as job, SUBSTR(payload,INSTR(payload,'business_id')+16) as business_id FROM `smartend_jobs` WHERE 1) a order by job DESC, business_id DESC
 ```
+
+* Find duplicate jobs
+
+```
+SELECT job_bid, COUNT(id) as total from (select id, CONCAT(job,'-',business_id) as job_bid from (select id, payload, substring_index(job,'"',1) as job, substring_index(business_id,';',1) as business_id
+FROM (SELECT id, payload, SUBSTR(payload,INSTR(payload,'App\\\\Jobs\\\\')+11) as job, SUBSTR(payload,INSTR(payload,'business_id')+16) as business_id FROM `smartend_jobs` WHERE 1) a ) b  
+ORDER BY CONCAT(job,'-',business_id) ASC) c GROUP BY job_bid HAVING total > 1
+```
+
 CentOS
 ======
 
