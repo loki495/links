@@ -39,7 +39,15 @@ CREATE DATABASE IF NOT EXISTS foo;
 GRANT ALL ON foo.* TO 'admin'@'localhost';
 ```
 
+LARAVEL
+=======
 
+* List queued jobs by class/id
+
+```
+select payload, substring_index(job,'"',1) as job, substring_index(business_id,';',1) as business_id
+FROM (SELECT payload, SUBSTR(payload,INSTR(payload,'App\\\\Jobs\\\\')+11) as job, SUBSTR(payload,INSTR(payload,'business_id')+16) as business_id FROM `smartend_jobs` WHERE 1) a order by job DESC, business_id DESC
+```
 CentOS
 ======
 
