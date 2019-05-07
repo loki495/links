@@ -71,3 +71,13 @@ repoquery --repofrompath=centos7,http://mirror.centos.org/centos/7/os/`arch` \ -
 ```
 find . -type d -printf "depth="%d" sym perm="%M" perm="%m" size="%s" user="%u" group="%g" name="%p" type="%Y\\n | grep -v perm=755
 ```
+
+
+Ubuntu
+======
+
+* show login info
+
+```
+for i in /etc/update-motd.d/*; do if [ "$i" != "/etc/update-motd.d/98-fsck-at-reboot" ]; then $i; fi; done
+```
